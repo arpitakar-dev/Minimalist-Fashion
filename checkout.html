@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Minimalist</title>
+     <link rel="icon" type="image/x-icon" href="images/favicon-1x.png">
+     <link rel=”apple-touch-icon” sizes=”114×114″ href="images/favicon-114x114.png">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/cart.css">
+     <link rel="stylesheet" href="css/checkout.css">
+     <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+     <div class="py-2 bg-black text-white top_bar text-center">
+          Sign up and get 20% off to your first order. <a href="javascript:void(0)">Sign Up Now</a>
+     </div>
+     <header class="site_header_wrapper">
+          <div class="container-xl">
+               <div class="site_header">
+                    <div class="site_logo">
+                         <a href="index.html">
+                              <img src="images/logo-1x.png"
+                                   srcset="images/logo-1x.png 1x, images/logo-2x.png 2x, images/logo-3x.png 3x"
+                                   alt="Logo">
+                         </a>
+                    </div>
+                    <div class="mobile_menu_btn">
+                         <span class="mobile_menu_icon"></span>
+                         <span class="mobile_menu_icon"></span>
+                         <span class="mobile_menu_icon"></span>
+                    </div>
+                    <div class="nav_bar_collapse">
+                         <ul class="main_nav_list">
+
+                              <!-- <li class="main_nav_list-item has_drop_menu">
+                                   <a href="javascript:void" class="menu_link has_drop_menu">
+                                        <span class="btn-animate-y">
+                                             <span class="btn-animate-y-1">Pages</span>
+                                             <span class="btn-animate-y-2">Pages</span>
+                                        </span>
+                                   </a>
+                                   <ul class="drop_down_menu">
+                                        <li class="drop_down_menu-item">
+                                             <a href="javascript:void(0)">Pages1</a>
+                                        </li>
+                                        <li class="drop_down_menu-item">
+                                             <a href="javascript:void(0)">Pages2</a>
+                                        </li>
+                                   </ul>
+                              </li> -->
+                              <li class="main_nav_list-item">
+                                   <a href="products.html" class="menu_link">Shop</a>
+                              </li>
+                              <li class="main_nav_list-item">
+                                   <a href="products.html" class="menu_link">On Sale</a>
+                              </li>
+                              <li class="main_nav_list-item">
+                                   <a href="products.html" class="menu_link">New Arrivals</a>
+                              </li>
+                              <li class="main_nav_list-item">
+                                   <a href="products.html" class="menu_link">Contact</a>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="header_btn">
+                         <div class="input-group nav_search_box">
+                              <span class="input-group-text" id="basic-addon1"><i
+                                        class="fa-solid fa-magnifying-glass"></i></span>
+                              <input type="text" class="form-control" placeholder="Search...">
+                         </div>
+                         <ul class="nav_icons_list">
+                              <li>
+                                   <a href="cart.html"><i class="bi bi-cart"></i></a>
+                                   <span class="cartcount">0</span>
+                              </li>
+                              <li><a href="javascript:void(0)"><i class="bi bi-person-circle"></i></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </header>
+
+     <main>
+          <div class="checkout_wrapper cmn_gap">
+               <div class="shipping_details">
+                    <h2 class="mb-3">Shipping Address</h2>
+                    <form class="shipping_form">
+                         <h4 class="form_hd">Contact Details</h4>
+                         <div class="row">
+                              <div class="col-12">
+                                   <input type="text" name="" id="" class="" placeholder="Name">
+                              </div>
+                              <div class="col-12">
+                                   <input type="tel" name="" id="" class="" placeholder="Phone no">
+                              </div>
+                         </div>
+                         <h4 class="form_hd">Address Line</h4>
+                         <div class="row">
+                              <div class="col-md-6">
+                                   <input type="text" name="" id="" class="" placeholder="House/Building/Flat-no">
+                              </div>
+                              <div class="col-md-6">
+                                   <input type="tel" name="" id="" class="" placeholder="Street/Locality name">
+                              </div>
+                              <div class="col-md-6">
+                                   <input type="text" name="" id="" class="" placeholder="Pincode">
+                              </div>
+                              <div class="col-md-6">
+                                   <select name="" id="">
+                                        <option value="">State</option>
+                                        <option value="">Andhra Pradesh</option>
+                                        <option value="">Arunachal Pradesh</option>
+                                        <option value="">Assam</option>
+                                        <option value="">Bihar</option>
+                                        <option value="">Chhattisgarh</option>
+                                        <option value="">Goa</option>
+                                        <option value="">Gujarat</option>
+                                        <option value="">Haryana</option>
+                                        <option value="">Himachal Pradesh</option>
+                                        <option value="">Jharkhand</option>
+                                        <option value="">Karnataka</option>
+                                        <option value="">Kerala</option>
+                                        <option value="">Madhya Pradesh</option>
+                                        <option value="">Maharashtra</option>
+                                        <option value="">Manipur</option>
+                                        <option value="">Meghalaya</option>
+                                        <option value="">Mizoram</option>
+                                        <option value="">Nagaland</option>
+                                        <option value="">Odisha</option>
+                                        <option value="">Punjab</option>
+                                        <option value="">Rajasthan</option>
+                                        <option value="">Sikkim</option>
+                                        <option value="">Tamil Nadu</option>
+                                        <option value="">Telangana</option>
+                                        <option value="">Tripura</option>
+                                        <option value="">Uttarakhand</option>
+                                        <option value="">Uttar Pradesh</option>
+                                        <option value="">West Bengal</option>
+                                   </select>
+                              </div>
+                              <h4 class="form_hd">Payment Options</h4>
+                              <div class="col-12">
+                                   <ul class="payoption_item">
+                                        <li>
+                                             <input type="radio" id="cod" name="payby" value="01">
+                                             <label for="cod">Cash On Delivery</label>
+                                        </li>
+                                        <li>
+                                             <input type="radio" id="online" name="payby" value="02">
+                                             <label for="online">Online</label>
+                                        </li>
+                                        <li>
+                                             <input type="radio" id="card" name="payby" value="03">
+                                             <label for="card">Debit/Credit Card</label>
+                                        </li>
+
+                                   </ul>
+
+
+                              </div>
+                         </div>
+
+                    </form>
+               </div>
+
+               <div class="checkout-summary">
+
+               </div>
+
+          </div>
+     </main>
+
+     <footer>
+          <div class="container-xl">
+               <div class="row">
+                    <div class="col-lg-3">
+                         <a href="javascript:void(0)">
+                              <img src="images/logo-1x.png"
+                                   srcset="images/logo-1x.png 1x, images/logo-2x.png 2x, images/logo-3x.png 3x"
+                                   alt="Logo" class="footer-logo mb-4">
+                         </a>
+                         <ul class="ft_cont_list mt-2">
+                              <li><i class="bi bi-geo-alt"></i> 8819 Ohio St. South Gate, CA 90280</li>
+                              <li><i class="bi bi-envelope"></i> <a
+                                        href="mailto:minimalistshop@gmail.com">minimalistshop@gmail.com</a></li>
+                              <li><i class="bi bi-telephone"></i> <a href="tel:+1 386-688-3295">+1 386-688-3295</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-lg-3 ps-lg-5">
+                         <h4 class="ft_list_hd">Shop</h4>
+                         <ul class="ft_link_list">
+                              <li><a href="javascript:void(0)">New Arrivals</a></li>
+                              <li><a href="javascript:void(0)">Women Collection</a></li>
+                              <li><a href="javascript:void(0)">Men Collection</a></li>
+                              <li><a href="javascript:void(0)">Trending</a></li>
+                              <li><a href="javascript:void(0)">Offers</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-lg-3 ">
+                         <h4 class="ft_list_hd">Company</h4>
+                         <ul class="ft_link_list">
+                              <li><a href="javascript:void(0)">About</a></li>
+                              <li><a href="javascript:void(0)">Reviews</a></li>
+                              <li><a href="javascript:void(0)">Contact Us</a></li>
+                              <li><a href="javascript:void(0)">Terms & Conditions</a></li>
+                              <li><a href="javascript:void(0)">Policy</a></li>
+                         </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                         <ul class="ft-sc-icon-list mb-lg-4">
+                              <li><a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                              <li><a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a></li>
+                              <li><a href="javascript:void(0)"><i class="fa-brands fa-youtube"></i></a></li>
+                         </ul>
+                         <p>Explore our curated collection of elegant dresses. Exceptional quality, secure shopping, and
+                              dedicated support for a seamless online experience.</p>
+                    </div>
+               </div>
+               <hr>
+               <div class="row copyright_sec align-items-center">
+                    <div class="col-6">
+                         <p>Minimalist Fashion Garments © 2025, All Rights Reserved</p>
+                    </div>
+                    <div class="col-6 text-end">
+                         <img class="payment-opt" src="images/payment-opt-1x.png" alt=""
+                              srcset="images/payment-opt-1x.png 1x, images/payment-opt-2x.png 2x">
+                    </div>
+               </div>
+          </div>
+     </footer>
+     <div class="bg_overlay"></div>
+
+     <script src="js/data.js"></script>
+     <script src="js/index.js"></script>
+     <script src="js/cart.js"></script>
+</body>
+
+</html>

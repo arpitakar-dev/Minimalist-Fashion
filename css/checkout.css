@@ -1,0 +1,139 @@
+.checkout_wrapper {
+     width: 75%;
+     margin: 0 auto;
+}
+
+.shipping_details {
+     display: inline-block;
+     width: 64%;
+     padding-right: 20px;
+     border-right: 1px solid #eaeaec;
+     padding-top: 25px;
+     color: #282c3f;
+     font-size: 13px;
+     line-height: 1.42857143;
+}
+
+.shipping_details h2 {
+     font-size: 1.5rem;
+}
+
+.form_hd {
+     font-size: 1.2rem;
+     margin: 1.25rem 0 1rem;
+     font-weight: 400;
+}
+
+.shipping_form input,
+.shipping_form select {
+     width: 100%;
+     border: 1px solid rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+     padding: 0.75rem 1rem;
+     margin-bottom: 0.75rem;
+     color: #282c3f;
+     outline: none;
+}
+
+.shipping_form input::placeholder {
+     color: #282c3f;
+}
+
+.payoption_item li {
+     display: inline-flex;
+     position: relative;
+}
+
+.payoption_item li input[type="radio"] {
+     visibility: hidden;
+     position: absolute;
+     top: 1;
+     left: 1;
+}
+
+
+.payoption_item li input[type="radio"]+label {
+     font-size: 1rem;
+     padding: 0.3rem 1.8rem 0.3rem 1.4rem;
+     position: relative;
+     cursor: pointer;
+}
+
+.payoption_item li input[type="radio"]+label::before {
+     position: absolute;
+     content: "";
+     width: 18px;
+     height: 18px;
+     border-radius: 50%;
+     border: 1px solid rgba(0, 0, 0, 0.2);
+     left: 0;
+     top: 50%;
+     transform: translateY(-50%);
+}
+
+.payoption_item li input[type="radio"]:checked~label::after {
+     position: absolute;
+     content: "";
+     width: 8px;
+     height: 8px;
+     background-color: #282c3f;
+     border-radius: 50%;
+     border: 1px solid rgba(0, 0, 0, 0.2);
+     left: 5px;
+     top: 50%;
+     transform: translateY(-50%);
+}
+
+/* ------------------------- */
+
+.checkout-summary{
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+    padding: 24px 0 0 16px;
+    color: #282c3f;
+    font-size: 13px;
+    line-height: 1.42857143;
+}
+
+
+.bag-details-container {
+  margin-bottom: 16px;
+}
+
+.price-header {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 24px 0 16px;
+  color: #535766;
+}
+
+.price-item {
+  margin-bottom: 12px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #282c3f;
+}
+
+.price-item-value {
+  float: right;
+}
+
+.priceDetail-base-discount {
+  color: #03a685;
+}
+
+.price-footer {
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 16px;
+  border-top: 1px solid #eaeaec;
+  color: #3e4152;
+  line-height: 16px;
+}
+
+.btn-place-order {
+  max-width: 100%;
+  width: 100%;
+  cursor: pointer;
+}

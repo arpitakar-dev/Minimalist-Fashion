@@ -1,0 +1,60 @@
+.leftPart {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     justify-content: space-between;
+}
+
+.leftPart .img_box {
+     width: 49%;
+}
+
+
+.ratingstar {
+     font-size: 1rem;
+     display: inline-block;
+     padding: 3px 8px;
+     border: 1px solid rgba(00, 00, 0, 0.1);
+     border-radius: 50vmax;
+     margin-top: 1rem;
+}
+
+.ratingstar i {
+     color: #fbaf16;
+}
+
+.sub-hd {
+     font-family: "Inter", sans-serif;
+     margin: 1rem 0 0.8rem;
+     font-size: 1rem;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+
+.size-list li {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     border: 1px solid #acacac;
+     cursor: pointer;
+     transition: 0.3s all;
+     line-height: 40px;
+     font-size: 0.75rem;
+     text-align: center;
+     display: inline-block;
+}
+
+.size-list li+li {
+     margin-right: 5px;
+}
+
+.size-list li:hover {
+     border: 1px solid #000000;
+}
+
+.common_btn.add-to-cart {
+     max-width: 100%;
+     width: 100%;
+     margin: 1rem 0;
+}
+
